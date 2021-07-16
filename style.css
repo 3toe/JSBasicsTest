@@ -1,0 +1,95 @@
+*{
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+h1{
+   background-color: rgb(207, 48, 53);
+   color: rgb(189,213,241);
+   font-size: x-large;
+   font-weight: bold;
+   height: 40px;
+   width: 954px;
+   padding: 10px 0px 0px 15px;
+   margin-bottom: 15px;
+   border-radius: 7px;
+   outline-width: 3px;
+}
+
+ul{
+   padding-left: 15px;
+   color: rgb(199, 205, 237);
+}
+
+a{
+   color: rgb(105, 211, 225);
+}
+
+p{
+   color: rgb(199, 205, 237);
+   padding: 8px 0;
+}
+
+h2{
+   color: rgb(199, 205, 237);
+   font-size: large;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+span{
+   color: rgb(125, 130, 250);
+}
+
+#container{
+   background-color: rgb(21, 51, 93);
+   width: 970px;
+   padding: 8px;
+   /* display: flex; */
+}
+
+#nav{
+   background-color: rgb(42, 125, 141);
+   border-radius: 15px;
+   height: 185px;
+   width: 165px;
+   padding: 15px 0 0 15px;
+   font-size: 80%;
+   display: inline-block;
+}
+
+#nav a{
+   font-weight: bold;
+}
+
+#main{
+   background-color: black;
+   width: 740px;
+   margin-left: 15px;
+   padding: 15px;
+   display: inline-block;
+   vertical-align: top;
+   border-radius: 15px;
+   font-size: 80%;
+}
+
+#main ul li{
+   margin-bottom: 5px;
+}
+
+#footer {
+   background-color: rgb(93, 103, 115);
+   font-size: 80%;
+   width: 938px;
+   padding: 15px;
+   border-radius: 15px;
+   margin-top: 15px;
+   font-weight: bold;
+}
